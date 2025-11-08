@@ -1,0 +1,110 @@
+# =========================================
+# 🐍 Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+bin/
+var/
+lib/
+lib64/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# =========================================
+# 🧠 Virtualenv / Poetry / Pipenv
+# =========================================
+venv/
+env/
+ENV/
+.venv/
+.poetry/
+pipenv/
+
+# =========================================
+# 📦 Data / Embeddings / Cache
+# =========================================
+data/*.csv
+!data/knowledge_base_300_extended.csv  # ← оставляем основной CSV в репозитории
+*.jsonl
+*.parquet
+*.npy
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.model
+*.log
+*.tmp
+*.cache/
+cache/
+logs/
+hf_cache/
+output/
+outputs/
+checkpoints/
+wandb/
+
+# =========================================
+# 🧩 Environment
+# =========================================
+.env
+.env.local
+.env.*.local
+!.env.example   # ← оставляем шаблон
+
+# =========================================
+# 🐳 Docker
+# =========================================
+docker-compose.override.yml
+*.pid
+*.seed
+*.tar
+*.gz
+*.zip
+*.bak
+*.swp
+
+# =========================================
+# 🧠 Qdrant
+# =========================================
+qdrant_storage/
+qdrant_data/
+*.db
+*.db-shm
+*.db-wal
+
+# =========================================
+# 💻 IDE / Editors
+# =========================================
+.vscode/
+.idea/
+.spyproject/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =========================================
+# 🧪 Jupyter / Colab
+# =========================================
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
+
+# =========================================
+# 🧰 System files
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.inigit
