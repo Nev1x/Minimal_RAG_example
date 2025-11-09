@@ -21,6 +21,7 @@ lib64/
 pip-wheel-metadata/
 *.manifest
 *.spec
+tests.py
 
 # =========================================
 # 🧠 Virtualenv / Poetry / Pipenv
